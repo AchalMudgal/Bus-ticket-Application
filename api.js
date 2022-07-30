@@ -4,7 +4,7 @@ let bodyParser = require('body-parser');
 let mongoose = require('mongoose');
 
 mongoose.connect("mongodb://localhost:27017/busDb",{
-    //useCreateIndex : true,
+   
     useUnifiedTopology : true,
     useNewUrlParser : true
 });
